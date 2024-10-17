@@ -1,2 +1,2 @@
 # node express minimal setup
-node  express minimal boilerplate setup
+node express typescript orm minimalist setup
