@@ -2,12 +2,12 @@
   "name": "minimal-setup",
   "version": "1.0.0",
   "description": "Minimalist setup for new project",
-  "main": "./src/index.ts",
+  "main": "./src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc build",
-    "start": "node ./dist/index.js",
-    "dev": "concurrently \"npx tsc -w\"  \"nodemon ./src/index.ts\""
+    "start": "node ./dist/app.js",
+    "dev": "concurrently \"npx tsc -w\"  \"nodemon ./src/app.ts\""
   },
   "author": "",
   "license": "ISC",
